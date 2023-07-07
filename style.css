@@ -1,0 +1,173 @@
+/* The beginin of The code */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #19A1AE;
+    background-image: url(./images/background-top.png), url(./images/background-bottom.png);
+    background-repeat: no-repeat;
+    background-position: right 30vw bottom 75vh, left 45vw top 62vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    width: 326px;
+    min-height: 374px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.background {
+    width: 326px;
+    height: 140px;
+    position: absolute;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    position: relative;
+    margin-top: 92px;
+    margin-left: 115px
+}
+
+.name-year-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.name {
+    color: #2E3349;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name-year {
+    color: #6B7082;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 8.5px;
+}
+
+.city {
+    text-align: center;
+    margin-top: 13px;
+    color: #6B7082;
+    font-family: 'Kumbh Sans';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.footer-box {
+    display: flex;
+
+}
+
+.box-1 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.box-2 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.box-3 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.box-1 h2 {
+    margin-top: 24px;
+    color: #2E3349;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.box-2 h2 {
+    margin-top: 24px;
+    color: #2E3349;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.box-3 h2 {
+    margin-top: 24px;
+    color: #2E3349;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.box-1 p {
+    color: #6B7082;
+    font-family: 'Kumbh Sans';
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 9px;
+
+}
+
+.box-2 p {
+    color: #6B7082;
+    font-family: 'Kumbh Sans';
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 9px;
+}
+
+.box-3 p {
+    color: #6B7082;
+    font-family: 'Kumbh Sans';
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 9px;
+}
+
+hr {
+    border: 1px solid #E8E9EC;
+}
+
+
+@media screen and (min-width: 480px) {
+    .main-card {
+        width: 350px;
+        min-height: 374px;
+        border-radius: 15px;
+        background-color: white;
+    }
+    
+    .background {
+        width: 350px;
+        height: 140px;
+        position: absolute;
+    }
+    
+    .avatar {
+        width: 96px;
+        height: 96px;
+        position: relative;
+        margin-top: 92px;
+        margin-left: 127px
+    }
+}
+
+/* End of code */
